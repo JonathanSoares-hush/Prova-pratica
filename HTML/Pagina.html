@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Venha participar do maior campeonato de farmar Aura do Mundo</h1>
+    </header>
+    <main>
+        <h2>Entenda como funciona</h2>
+        <p>Um campeonato de "farmar aura" é um encontro presencial — geralmente em praças, parques ou praias — onde crianças, adolescentes e jovens disputam para mostrar estilo, carisma, presença e criatividade. A expressão mistura a ideia de farmar (acumular recursos, como nos games) com aura (presença marcante ou "vibe").</p>
+        <h2>Como participar?</h2>
+        <p>Para participar do campeonato é necessário realizar o cadastro a seguir:</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Ficha de Inscrição - Farmador de Aura</legend>
+
+                <p>
+                    <label for="nome">Nome completo:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </p>
+
+                <p>
+                    <label for="apelido">Apelido / Vulgo:</label><br>
+                    <input type="text" id="apelido" name="apelido" placeholder="Como você é conhecido" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </p>
+
+                <p>
+                    <label for="idade">Idade:</label><br>
+                    <input type="number" id="idade" name="idade" min="8" max="99" required>
+                </p>
+
+                <p>
+                    <label for="especialidade">Qual é o seu ponto forte para farmar aura?</label><br>
+                    <select id="especialidade" name="especialidade" required>
+                        <option value="">Selecione uma opção...</option>
+                        <option value="estilo">67 e resenaxxx</option>
+                        <option value="carisma">Cantadas e beijocas</option>
+                        <option value="presenca">O rei da aura do mundo</option>
+                        <option value="criatividade">Não sei farmar aura "Beta"</option>
+                    </select>
+                </p>
+
+                <p>
+                    <span>Onde você prefere competir?</span><br>
+                    <input type="radio" id="praca" name="local" value="praca" required>
+                    <label for="praca">Praça</label><br>
+
+                    <input type="radio" id="parque" name="local" value="parque">
+                    <label for="parque">Parque</label><br>
+
+                    <input type="radio" id="praia" name="local" value="praia">
+                    <label for="praia">Praia</label>
+                </p>
+
+                <p>
+                    <label for="momento">Descreva seu momento de maior aura até hoje:</label><br>
+                    <textarea id="momento" name="momento" rows="4" cols="40" placeholder="Conte como você farmou aura..."></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Confirmo que tenho aura suficiente para competir.</label>
+                </p>
+
+                <button type="submit">Finalizar Cadastro</button>
+                <button type="reset">Limpar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Campeonato Mundial de Farmar Aura - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
